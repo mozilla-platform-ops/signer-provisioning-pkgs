@@ -14,7 +14,6 @@ When a machine is moved to a signer group in SimpleMDM, these PKGs are deployed 
 ## Notes
 
 - Some packages contain large binaries and are tracked using Git LFS.
-- Munki is used for package deployment and management.
 
 ## Related Tools
 
