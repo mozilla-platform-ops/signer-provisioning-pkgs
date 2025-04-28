@@ -1,0 +1,5 @@
+pkg-adhoc/payload/usr/local/bin/vault filter=lfs diff=lfs merge=lfs -text
+pkg-dep/payload/usr/local/bin/vault filter=lfs diff=lfs merge=lfs -text
+pkg-ff/payload/usr/local/bin/vault filter=lfs diff=lfs merge=lfs -text
+pkg-tb/payload/usr/local/bin/vault filter=lfs diff=lfs merge=lfs -text
+pkg-vpn/payload/usr/local/bin/vault filter=lfs diff=lfs merge=lfs -text
