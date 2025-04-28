@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installer-gui-script authoringTool="Packages" authoringToolVersion="1.2.10" authoringToolBuild="732" minSpecVersion="1.0">
+    <options hostArchitectures="arm64"/>
+    <!--+==========================+
+        |       Presentation       |
+        +==========================+-->
+    <title>DISTRIBUTION_TITLE</title>
+    <!--+==========================+
+        |         Installer        |
+        +==========================+-->
+    <choices-outline>
+        <line choice="installer_choice_1"/>
+    </choices-outline>
+    <choice id="installer_choice_1" title="Signer Bootstrap - adhoc" description="">
+        <pkg-ref id="com.mozilla.pkg.SignerBootstrap"/>
+    </choice>
+    <!--+==========================+
+        |    Package References    |
+        +==========================+-->
+    <pkg-ref id="com.mozilla.pkg.SignerBootstrap" version="1.0" auth="Root" installKBytes="448583">#Signer_Bootstrap_-_adhoc.pkg</pkg-ref>
+</installer-gui-script>

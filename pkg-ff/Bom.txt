@@ -1,0 +1,22 @@
+.	40755	0/0
+./Library	40755	0/0
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/io.vaultproject.vault-agent.plist	100644	0/0	763	2053103919
+./Library/LaunchDaemons/org.mozilla.bootstrap_mojave.plist	100644	0/0	913	2715811225
+./private	40755	0/0
+./private/etc	40755	0/0
+./private/etc/facter	40775	0/0
+./private/etc/facter/facts.d	40775	0/0
+./private/etc/facter/facts.d/kv.yaml	100644	0/0	49	4238968052
+./private/etc/puppet_role	100644	0/0	22	758753100
+./private/etc/vault-agent-config.hcl	100644	0/0	619	3612007044
+./private/etc/vault_approle_id	100644	0/0	37	2899287251
+./private/var	40755	0/0
+./private/var/root	40740	0/0
+./private/var/root/bootstrap_mojave.sh	100644	0/0	4293	257406950
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/bin	40755	0/0
+./usr/local/bin/vault	100755	0/0	459341248	1480024007
+./usr/local/builds	40775	0/0
+./usr/local/tools	40775	0/0

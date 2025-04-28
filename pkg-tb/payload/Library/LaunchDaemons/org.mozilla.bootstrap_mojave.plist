@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+    <!-- This Source Code Form is subject to the terms of the Mozilla Public
+       - License, v. 2.0. If a copy of the MPL was not distributed with this
+       - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<dict>
+	<key>enabled</key>
+	    <true/>
+	<key>Label</key>
+	    <string>org.mozilla.bootstrap_mojave</string>
+	<key>Program</key>
+	    <string>/var/root/bootstrap_mojave.sh</string>
+	<key>ProgramArguments</key>
+	    <array>
+		<string>/var/root/bootstrap_mojave.sh</string>
+		<string>-l</string>
+		<string>/var/root/bootstrap_mojave.log</string>
+	    </array>
+	<key>RunAtLoad</key>
+	    <true/>
+        <key>LaunchOnlyOnce</key>
+            <true/>
+        <key>KeepAlive</key>
+            <false/>
+</dict>
+</plist>

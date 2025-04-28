@@ -1,0 +1,3 @@
+---
+puppet_role: mac_v4_signing
+datacenter: mdc1
