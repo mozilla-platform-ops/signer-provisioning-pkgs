@@ -9,7 +9,7 @@
 	<key>install_location</key>
 	<string>/</string>
 	<key>name</key>
-	<string>Signer Bootstrap - VPN-Signed.pkg</string>
+	<string>Signer Bootstrap - VPN.pkg</string>
 	<key>postinstall_action</key>
 	<string>none</string>
 	<key>preserve_xattr</key>
